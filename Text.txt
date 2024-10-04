@@ -1,0 +1,5 @@
+  headings  color  #db9423;
+  Navbar link hover color #ed7a00;
+  Navbar link default color & paragraph#1d1d23
+
+  color dddddd;

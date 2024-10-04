@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:wght@400..900&family=Source+Sans+3:wght@200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+video {
+  max-width: 100%;
+}
+body {
+  background-color: #f2f2f2;
+}
+p {
+  margin: 0;
+}
+
+.d-flex-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.d-flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h2 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #db9423;
+}
+h6 {
+  line-height: 1.3rem;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+.text-content-2 {
+  gap: 2rem;
+  text-align: center;
+  margin: 0 23px;
+}
+.png-1 {
+  width: 100px;
+}
+/*----------------------------------------------------- Navbar -------------------------------- */
+.navbar-toggler {
+  background-color: #db9423;
+}
+.navbar-toggler-icon {
+  color: #fff;
+  background-image: url("/Aromas_cafe/Images/hamburger-menu-svgrepo-com.svg");
+}
+.nav-link,
+.nav-link a {
+  font-size: 16px;
+  font-family: sans-serif;
+  border-bottom: 1px solid #dddddd;
+  font-weight: 400;
+  background-color: #e1e1e15e;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #db9423;
+}
+.contact-details {
+  font-size: 1.2rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+}
+/*----------------------------------------------------- hero section and video --------------- */
+.hero {
+  min-height: 472px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  /* padding: 250px 0; */
+  position: relative;
+  overflow: hidden;
+}
+.video-bg {
+  display: none;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+.container .hero-content {
+  gap: 2rem;
+}
+.container .bottom-svg {
+  position: absolute;
+  bottom: -48px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.container .bottom-svg img {
+  transform: scaleX(3.5);
+}
+/* /*----------------------------------------------------- section 2 ------------------------- */
+
+.section-2 {
+  margin: 7rem 0;
+}
+.container-2 .text-content {
+  gap: 1.5rem;
+  text-align: center;
+}
+.container-2 .text-content .title-2 h6 {
+  color: #000;
+}
+.container-2 .text-content .logo-2 img,
+.png1 img {
+  width: 80%;
+}
+.container-2 .text-content .para-2 p {
+  font-family: "Source Sans 3", sans-serif;
+  margin-bottom: 2.2rem;
+}
+.container-2 .text-content .btn-1 button {
+  padding: 12px 35px 12px 35px;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  border: none;
+  background-color: #db9423;
+}
+
+.section-2 .container .container-2 .image-2 img {
+  width: 90%;
+}
+.container-2 .imgs {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+/*----------------------------------------------------- section 3 -----------------------------------*/
+.section-3 {
+  /* margin: 5rem 0; */
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.section-3 .carousel-box .carousel-box-1 {
+  background-color: #db9423;
+  width: 200px;
+  height: 200px;
+  gap: 2rem;
+}
+.section-3 .box-1 h2 {
+  font-size: 1.8rem;
+  color: #000;
+}
+.section-3 .box-1 .img-2 img {
+  width: 80%;
+}
+/*----------------------------------------------------- section 4 -----------------------------------*/
+.section-4 {
+  z-index: -1;
+  background-image: url("/Aromas_cafe/Images/2-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 0 80px 0;
+  position: relative;
+}
+.bg-overlay {
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.sub-section {
+  position: relative;
+}
+.section-4 .sub-section .top-png {
+  position: absolute;
+  top: -5.3rem;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.section-4 .sub-section .top-png img {
+  transform: scaleX(3.5);
+  height: 4rem;
+}
+.section-4 .sub-section .text-content-2 h2 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+/*----------------------------------------------------- Section 5 --------------------------------- */
+.section-5 .container {
+  gap: 2rem;
+}
+.section-5 .container .row {
+  justify-content: center;
+  gap: 0.7rem;
+}
+.section-5 .container .row .font-t p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+.text-btn {
+  width: max-content;
+  padding: 8px 10px;
+  border-radius: 23px;
+  background-color: #db9423;
+  color: #fff;
+}
+.img-item .inner-wrapper {
+  position: relative;
+}
+.img-item .inner-wrapper img {
+  width: 340px;
+  height: 235px;
+  object-fit: cover;
+}
+.img-item .inner-wrapper .img-overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  opacity: 0;
+  transition: 0.6s;
+}
+.img-item .inner-wrapper .img-overlay:hover {
+  opacity: 1;
+}
+.img-item .inner-wrapper .img-overlay .icons {
+  gap: 1rem;
+  color: #fff;
+}
+.img-item .inner-wrapper .img-overlay .icons i {
+  padding: auto;
+  background-color: #db9423;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-item .inner-wrapper .img-overlay > * {
+  transform: translateX(25%);
+  transition: 0.3s;
+}
+.img-item .inner-wrapper .img-overlay:hover > * {
+  transform: translateX(0);
+}
+/* ---------------------------------------------------------section 6 ---------------------------- */
+.section-6 {
+  z-index: -1;
+  background-image: url("/Aromas_cafe/Images/party-group-of-people.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 0 80px 0;
+  position: relative;
+}
+.section-6 .sub-section .bottom-png {
+  position: absolute;
+  bottom: -8.1rem;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.section-6 .sub-section .bottom-png img {
+  transform: scaleX(3.5);
+  height: 4rem;
+}
+.section-6 .sub-section .text-content-2 {
+  gap: 1.5rem;
+}
+.section-6 .sub-section .text-content-2 #logo-img {
+  width: 60%;
+}
+.section-6 .sub-section .text-content-2 h2 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+/*----------------------------------------------------- section 7  ----------------------------------------------- */
+.section-7 {
+  z-index: -1;
+  background-image: url("/Aromas_cafe/Images/food-pattern-free-img.png");
+  background-repeat: repeat;
+  background-position: center center;
+  padding: 100px 0 80px 0;
+  position: relative;
+}
+.bg-overlay-white {
+  z-index: -1;
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 0.95;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.section-7 .sub-section .text-content-2 .title h2 {
+  color: #000;
+}
+.section-7 .sub-section .text-content-2 .comments {
+  gap: 2.5rem;
+}
+.section-7 .sub-section .text-content-2 .comments .com-1 {
+  width: 100%;
+}
+.section-7 .sub-section .text-content-2 .comments .com-1 p {
+  font: 1.1em "Source Sans 3", sans-serif;
+  margin-bottom: 10px;
+}
+.com-1 span {
+  font: 1em "Source Sans 3", sans-serif;
+  font-weight: 500;
+}
+#comment {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.2em;
+}
+/*----------------------------------------------------- section 8  ----------------------------------------------- */
+.section-8 {
+  z-index: -1;
+  background-image: url("/Aromas_cafe/Images/WhatsApp-Image-2021-09-05-at-6.41.53-PM.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 30px 0 90px 0;
+  position: relative;
+}
+.section-8 .sub-section .social-media > div {
+  width: 40px;
+  height: 37px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background-color: #fff;
+}
+.section-8 .sub-section .text-content-2 h2 {
+  font-size: 2.4rem;
+  color: #fff;
+}
+.section-8 .sub-section .text-content-2 h6 {
+  font-size: 14px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+.section-8 .sub-section .copyright span {
+  color: #fff;
+  margin-top: 5rem;
+}
+.section-8 .sub-section .copyright {
+  padding-top: 4rem;
+}
+/*----------------------------------------------------- Media Query --------------------------------- */
+@media (min-width: 576px) {
+  h2 {
+    font-size: 2.8rem !important;
+  }
+  h6 {
+    font-size: 1.3rem;
+  }
+  .navbar {
+    background-color: #fff;
+  }
+  .nav-link,
+  .nav-link a {
+    border: none;
+    background-color: #fff;
+  }
+  .container .bottom-svg {
+    position: absolute;
+    bottom: -80px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .container-2 {
+    gap: 0;
+  }
+  .png-1 {
+    width: 40%;
+  }
+  .container-2 .text-content .logo-2 img,
+  .png1 img {
+    width: 100%;
+  }
+  /* --------------------------------------------------section 2------------------------ */
+  .section-2 .container .container-2 .image-1 img {
+    width: 100%;
+  }
+  .section-2 .container .container-2 .image-2 img {
+    width: 90%;
+  }
+  .container .hero-content .png-1 {
+    width: 100%;
+  }
+  .container-2 .text-content {
+    padding: 0 2rem;
+  }
+  .hero {
+    padding: 235px 0;
+  }
+  .video-bg {
+    display: block;
+  }
+  .container .bottom-svg img {
+    height: 6.5rem;
+    transform: scaleX(6.5);
+  }
+  /* ---------------------------------------------section 4----------------------- */
+  .section-4,
+  .section-6 {
+    background-attachment: fixed;
+    padding: 120px 0 190px 0;
+  }
+  .text-content-2 {
+    gap: 2rem;
+  }
+  .section-4 .sub-section .top-png {
+    position: absolute;
+    top: -6.1rem;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .section-4 .sub-section .text-content-2 img {
+    width: 25%;
+  }
+  .section-4 .sub-section .top-png img {
+    transform: scaleX(6.5);
+    height: 6rem;
+  }
+  /* ---------------------------------------------section 5--------------------------------------- */
+  .section-6 .sub-section .bottom-png {
+    position: absolute;
+    bottom: -17.2rem;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .section-6 .sub-section .bottom-png img {
+    transform: scaleX(5.5);
+    height: 7rem;
+  }
+  .section-6 .sub-section .text-content-2 #logo-img {
+    width: 285px;
+  }
+  #comment {
+    font-size: 1.24rem;
+  }
+  /* ------------------------------------------------section 7 ---------------------------------------- */
+  .section-7 {
+    background-attachment: fixed;
+    padding: 130px 0 170px 0;
+  }
+  .img-item .inner-wrapper,
+  .img-item .inner-wrapper img {
+    width: 340px;
+    height: 330px;
+  }
+  .text-btn {
+    padding: 8px 16px;
+  }
+  .section-7 .sub-section .text-content-2 .comments .com-1 p {
+    font: 1.5em "Source Sans 3", sans-serif;
+    margin-bottom: 20px;
+  }
+  .section-8 {
+    padding: 80px 0 30px 0;
+  }
+}
