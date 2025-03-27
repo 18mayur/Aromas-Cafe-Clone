@@ -58,7 +58,7 @@ h6 {
 }
 .navbar-toggler-icon {
   color: #fff;
-  background-image: url("/Aromas_cafe/Images/hamburger-menu-svgrepo-com.svg");
+  background-image: url("Images/hamburger-menu-svgrepo-com.svg");
 }
 .nav-link,
 .nav-link a {
@@ -172,7 +172,7 @@ h6 {
 /*----------------------------------------------------- section 4 -----------------------------------*/
 .section-4 {
   z-index: -1;
-  background-image: url("/Aromas_cafe/Images/2-scaled.jpg");
+  background-image: url("Images/2-scaled.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -274,7 +274,7 @@ h6 {
 /* ---------------------------------------------------------section 6 ---------------------------- */
 .section-6 {
   z-index: -1;
-  background-image: url("/Aromas_cafe/Images/party-group-of-people.jpg");
+  background-image: url("Images/party-group-of-people.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -304,7 +304,7 @@ h6 {
 /*----------------------------------------------------- section 7  ----------------------------------------------- */
 .section-7 {
   z-index: -1;
-  background-image: url("/Aromas_cafe/Images/food-pattern-free-img.png");
+  background-image: url("Images/food-pattern-free-img.png");
   background-repeat: repeat;
   background-position: center center;
   padding: 100px 0 80px 0;
@@ -344,7 +344,7 @@ h6 {
 /*----------------------------------------------------- section 8  ----------------------------------------------- */
 .section-8 {
   z-index: -1;
-  background-image: url("/Aromas_cafe/Images/WhatsApp-Image-2021-09-05-at-6.41.53-PM.jpeg");
+  background-image: url("Images/WhatsApp-Image-2021-09-05-at-6.41.53-PM.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
